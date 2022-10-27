@@ -30,6 +30,18 @@ malesdata=filter(FinalData,sex=="M")
 ```
 
 
+
+### Graphical Description
+```{r}
+barchartGC(~infected + treatment,data=malesdata)
+barchartGC(~infected + treatment,data=malesdata, type="percent")
+
+```
+
+
+The graphical description depicts that among the males that contracted COVID91, about twice as many received the placebo as received the COVID91 treatment. From this graph the treatment is effective for males. 
+
+
 ## Females
 
 
