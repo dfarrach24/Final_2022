@@ -30,6 +30,10 @@ malesdata=filter(FinalData,sex=="M")
 ```
 
 
+$H_0$: The treatment has no effect on males. 
+
+$H_A$: The treatment has a significant effective on males. 
+
 
 ### Graphical Description
 ```{r}
@@ -51,6 +55,18 @@ rowPerc(table1)
 colPerc(table1)
 ```
 The numerical data reflects that among the males that contracted COVID91, 68.44% received the placebo, and 31.56% of males received the the COVID91 Vaccine treatment. The data shows that the treatment is effective for males.  
+
+
+### Inferential Results  
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+
+
 
 
 ## Females
