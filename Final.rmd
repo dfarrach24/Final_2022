@@ -77,10 +77,15 @@ Males who received the placebo are 2.18 more likely to contract COVID91 than mal
 
 ### Discussion and Conclusion
 
-Among the males who contracted COVID91 68.44% received the placebo, and 31.56% received the vaccine treatment. Based on the data collected among the males who received the placebo, the odds are that they are  2.18 times more likely to contract COVID91 than males wgo received the treatment.
+Among the males who contracted COVID91 68.44% received the placebo, and 31.56% received the vaccine treatment. Based on the data collected among the males who received the placebo, the odds are that they are  2.18 times more likely to contract COVID91 than males who received the treatment.
 
 
 ## Females
+
+
+
+
+
 
 
 ## LGBTQ
