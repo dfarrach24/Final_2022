@@ -82,9 +82,12 @@ Among the males who contracted COVID91 68.44% received the placebo, and 31.56% r
 
 ## Females
 
+```{r}
+femalesdata=filter(FinalData,sex=="F")
+```
 
-
-
+$H_0$: The treatment has no effect on females.  
+$H_A$: The treatment has a significant effect on females. 
 
 
 
