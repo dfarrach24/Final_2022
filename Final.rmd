@@ -235,5 +235,8 @@ Based on the data above, among the drug users who contracted Covid91 16.67% of d
 
 
 
-
 # Overall Results and Conclusions
+
+
+
+Based on the over all data of males, females, LGBTQ community, and drug users we rejected the null hypothesis since the COVID91 treatment had an effect on all of them. The Data suggested that the Covid 91 treatment was only successful for males. For Females, LGBTQ community, and drug users it had a negative effect on them since it made them more susceptible to contracting COVID 91.  
