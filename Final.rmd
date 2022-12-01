@@ -180,8 +180,16 @@ Based on the data above, among the LGBTQ community those who contracted Covid91 
 
 
 
-
 ## Druggies
+
+
+```{r}
+druggiesdata=filter(FinalData,DrugUser=="yes")
+```
+
+$H_0$: The treatment has no effect on drug users   
+$H_A$: The treatment has a significant effect on drug users.  
+
 
 
 # Overall Results and Conclusions
