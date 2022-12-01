@@ -150,7 +150,26 @@ barchartGC(~infected + treatment,data=lgbtqdata, type="percent")
   
 Based on the graph above, among the LGBTQ community those who contracted Covid91 about more than 80% of them received the Covid91 treatment as received the placebo. The graph suggest that the treatment not effective for the LGBTQ community.  
 
+
 ```{r}
+table1 <- xtabs(~infected + treatment, data=lgbtqdata)
+rowPerc(table1)
+colPerc(table1)
+```
+According to the numerical data, among the LGBTQ community those that contracted Covid91 13.33% of them received the placebo, and 86.67% of them received the  treatment. The data demonstrates the treatment is not effective for the LGBTQ community. 
+
+
+
+### Inferential Results  
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+Chi Squared test has a p-value of 0.0000001104 which is less than 0.05 meaning we reject the null hypothesis. We conclude that the treatment does have an effect on the LGBTQ community.
+The Fisher's Test has a p-value of 0.00000001244 which is less than 0.05 meaning we reject the null hypothesis. We conclude that the treatment does have an effect on the LGBTQ community.  
+Those in the LGBTQ community who received the placebo are 0.16 times as likely to contract Covid91 than those in the LGBTQ community who received the treatment, meaning the treatment has a negative effect of the LGBTQ community.  
 
 
 
