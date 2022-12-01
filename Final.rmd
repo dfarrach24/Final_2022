@@ -102,6 +102,19 @@ Based on the graph above, among the females who contracted Covid91 about 15% mor
 
 
 
+### Numerical Description
+```{r}
+table1 <- xtabs(~infected + treatment, data=femalesdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+
+According to the numerical data, among the females that contracted COVID91 42.82% received the placebo, and 57.18% of females received the treatment. The data demonstrates the treatment is not effective for females.  
+
+
+
+
 ## LGBTQ
 
 
