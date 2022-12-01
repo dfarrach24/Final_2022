@@ -113,6 +113,20 @@ colPerc(table1)
 According to the numerical data, among the females that contracted COVID91 42.82% received the placebo, and 57.18% of females received the treatment. The data demonstrates the treatment is not effective for females.  
 
 
+### Inferential Results  
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+Chi Squared test has a p-value of 0.005747 which is less than 0.05 meaning we reject the null hypothesis. We conclude that the treatment does have an effect on females making them more susceptible to contracting Covid91. 
+The Fisher's Test has a p-value of 0.004887 which is less than 0.05 meaning we reject the null hypothesis. We conclude that the treatment does have an effect on females.
+
+Females who received the placebo are 0.74 as likely to contract Covid91 than females who received the treatment.  
+
+
+
 
 
 ## LGBTQ
