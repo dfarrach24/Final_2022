@@ -134,6 +134,13 @@ Based on the data above, among the females who contracted Covid91 42.82% receive
 
 ## LGBTQ
 
+```{r}
+lgbtqdata=filter(FinalData,LGBTQ=="gay")
+```
+
+$H_0$: The treatment has no effect on LGBTQ community.  
+$H_A$: The treatment has a significant effect on LGBTQ community.  
+
 
 
 ## Druggies
