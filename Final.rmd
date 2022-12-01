@@ -192,4 +192,14 @@ $H_A$: The treatment has a significant effect on drug users.
 
 
 
+##Graphical Description  
+```{r}
+barchartGC(~infected + treatment,data=druggiesdata)
+barchartGC(~infected + treatment,data=druggiesdata, type="percent")
+``` 
+
+
+Based on the graph above, among the drug users who contracted Covid91 about 60% more of them received the Covid91 treatment as received the placebo. The graph suggest that the treatment is not effective for drug users.  
+
+
 # Overall Results and Conclusions
