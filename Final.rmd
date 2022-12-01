@@ -91,6 +91,17 @@ $H_A$: The treatment has a significant effect on females.
 
 
 
+### Graphical Description  
+```{r}
+barchartGC(~infected + treatment,data=femalesdata)
+barchartGC(~infected + treatment,data=femalesdata, type="percent")
+```
+
+
+Based on the graph above, among the females who contracted Covid91 about 15% more of them received the Covid91 treatment as received the placebo. The graph suggest that the treatment is not effective for females.  
+
+
+
 ## LGBTQ
 
 
