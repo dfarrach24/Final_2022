@@ -173,6 +173,11 @@ Those in the LGBTQ community who received the placebo are 0.16 times as likely t
 
 
 
+### Discussion and Conclusion    
+
+Based on the data above, among the LGBTQ community those who contracted Covid91 13.33% received the placebo and 86.67% received the treatment. According to the data, among those in the LGBTQ community those who received the placebo, the odds are that they are 0.16 times more likely to contract Covid91 than those in the LGBTQ community who received the treatment. Therefore we reject the null hypothesis since the treatment has a significant negative effect on the LGBTQ community since it makes them more susceptible to contracting Covid 91.  
+
+
 
 
 
